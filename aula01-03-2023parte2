@@ -1,0 +1,37 @@
+
+package aula01032023;
+import java.util.Scanner;
+
+public class Aula01032023 { 
+    
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        double nota1,nota2,nota3,media;
+        String nome;
+        
+        System.out.println("Digite o nome do aluno: ");
+        nome = leia.next();   
+        System.out.println("insira a primeira nota");
+        nota1 = leia.nextDouble();
+        
+        System.out.println("insira a segunda nota");
+        nota2 = leia.nextDouble();
+        
+        System.out.println("insira a terceira nota");
+        nota3 = leia.nextDouble();
+        
+        media = (nota1+nota2+nota3) / 3;
+        System.out.println("Nome do aluno: "+nome+"Media Final: "+media);
+        
+        if(media>=6)
+        {
+            System.out.println("Está aprovado");
+        }
+        else{
+            System.out.println("Está reprovado");
+        }
+                
+        
+    }
+    
+}
