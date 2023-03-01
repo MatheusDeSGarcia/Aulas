@@ -1,0 +1,25 @@
+
+package aula01032023;
+import java.util.Scanner;
+
+public class Aula01032023 { 
+    
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        double valor, valorFinal;
+        
+        System.out.println("Insira o valor do produto: ");
+        valor = leia.nextDouble();
+        
+        if(valor>=1000){
+            valorFinal = valor - (valor*0.2);
+        }
+        else{
+            valorFinal= valor - (valor*0.1);
+        }
+        
+        System.out.println("O valor do desconto é: R$"+valorFinal);
+        
+    }
+    
+}
