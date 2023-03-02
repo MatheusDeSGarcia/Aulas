@@ -1,0 +1,28 @@
+
+package aula01032023;
+import java.util.Scanner;
+
+public class Aula01032023 { 
+    
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        double altura;
+        int idade;
+        String nome;
+        System.out.println("Digite o nome do candidato: ");
+        nome= leia.next();
+        System.out.println("Digite a idade do candidato: ");
+        idade = leia.nextInt();
+        System.out.println("Digite a altura do candidato: ");
+        altura = leia.nextDouble();
+        
+        if((idade>=18)&&(altura>=1.60)){
+            System.out.println("O candidato se encaixa nas condições para alistamento.");
+        }
+        else{
+            System.out.println("O candidato não se encaixa nas condições para alistamento.");
+        }
+               
+        }
+    
+}
