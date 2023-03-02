@@ -1,0 +1,21 @@
+public class JavaApplication2 {
+
+    public static void main(String[] args) {
+        Scanner leia= new Scanner(System.in);
+        // comentÃ¡rio em um alinha apenas
+        
+        /* esta Ã© a forma para
+        comentar em blocos
+        */
+        int numero;
+        int dobro;
+        int triplo;
+        
+        System.out.println("Insira um numero");
+        numero = leia.nextInt();// next int Ã© para receber valores do tipo inteiro
+       
+        dobro = numero*2; 
+        
+        triplo = numero*3;
+      
+        System.out.println("dobro:"+dobro+" triplo "+triplo);
