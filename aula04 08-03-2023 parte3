@@ -1,0 +1,35 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        double idade;
+        System.out.println("Digite sua idade: ");
+        idade = leia.nextDouble();
+        
+        if(idade>=60)
+        {
+            System.out.println("Categoria: Senior");
+        }
+        else if(idade>=40 && idade<60)
+        {
+            System.out.println("Categoria: Adulto B");
+        }
+        else if(idade>=18 && idade<40)
+        {
+            System.out.println("Categoria: Adulto A");
+        }
+        else if(idade>=12 && idade<18)
+        {
+            System.out.println("Categoria: Jovem");
+        }
+        else
+        {
+            System.out.println("Categoria: Infantil");
+        }
+    
+    }
+        
+}
