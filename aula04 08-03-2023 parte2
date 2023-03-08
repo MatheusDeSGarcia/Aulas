@@ -1,0 +1,31 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        double numero,numero2;
+        System.out.println("Digite o primeiro número: ");
+        numero = leia.nextDouble();
+        System.out.println("Digite o segundo número: ");
+        numero2 = leia.nextDouble();
+        if(numero==numero2)
+        {
+            System.out.println("Eles são iguais!");
+        }
+        else
+        {
+        if(numero>numero2) 
+            {
+                System.out.println("O primeiro numero é o maior");
+            }
+        else
+            {
+                System.out.println("O segundo numero é o maior");
+            }
+        }
+        
+    }
+    
+}
