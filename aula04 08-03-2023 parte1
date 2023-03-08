@@ -1,0 +1,22 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        double numero;
+        System.out.println("Digite um número: ");
+        numero = leia.nextDouble();
+        
+        if(numero%2==0)
+        {
+            System.out.println("Numero par");
+            
+        }
+        else{
+            System.out.println("Numero impar");
+        }
+    }
+    
+}
