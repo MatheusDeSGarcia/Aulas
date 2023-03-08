@@ -1,0 +1,31 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        double idade;
+        System.out.println("Digite sua idade: ");
+        idade = leia.nextDouble();
+        
+        if(idade>=18 && idade < 65)
+        {
+            System.out.println("Voto obrigatorio");
+        }
+        else if(idade>=65)
+        {
+            System.out.println("Voto opcional");
+        }
+        else if(idade>=16 && idade <18)
+        {
+            System.out.println("Voto opcional");
+        }
+        else
+        {
+            System.out.println("Não pode votar");
+        }
+    
+    }
+        
+}
