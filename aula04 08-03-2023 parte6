@@ -1,0 +1,33 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        double atend;
+        int carteirinha;
+        System.out.println("Digite seu numero de atendimento: ");
+        atend = leia.nextDouble();
+        
+       if(atend >=50 && atend<=100)
+       {
+           System.out.println("Favor dirigir-se ao guichê A");
+       }
+       else if(atend>=25 && atend<=49)
+       {
+           System.out.println("Favor dirigir-se ao guichê B");
+       }
+       else if(atend>=10 && atend<=24)
+       {
+           System.out.println("Favor dirigir-se ao guichê C");
+       }
+       else
+       {
+           System.out.println("Favor dirigir-se ao guichê D ou E");
+       }
+               
+    
+    }
+        
+}
