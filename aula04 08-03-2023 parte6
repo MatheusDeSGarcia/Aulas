@@ -6,7 +6,6 @@ public class Aula08032023 {
         Scanner leia = new Scanner(System.in);
         
         double atend;
-        int carteirinha;
         System.out.println("Digite seu numero de atendimento: ");
         atend = leia.nextDouble();
         
