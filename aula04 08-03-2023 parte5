@@ -1,0 +1,35 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        double idade;
+        int carteirinha;
+        System.out.println("Digite sua idade: ");
+        idade = leia.nextDouble();
+        
+        if(idade<18)
+        {
+            System.out.println("A pessoa pode pagar meia entrada (18,00R$)");
+        }
+        else
+        {
+            System.out.println("A pessoa possui carteirinha?");
+            carteirinha = leia.nextInt();
+            if(carteirinha==1) 
+            {
+                System.out.println("A pessoa pode pagar meia entrada (18,00R$)");    
+            }
+            else
+            {
+                System.out.println("A pessoa deve pagar a entrada inteira (36,00R$)");
+            }
+           
+        }
+               
+    
+    }
+        
+}
