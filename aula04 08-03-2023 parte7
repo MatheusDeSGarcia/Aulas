@@ -1,0 +1,25 @@
+package aula08032023;
+import java.util.Scanner;
+public class Aula08032023 {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+        String usuario, senha;
+        System.out.println("Digite o login: ");
+        usuario = leia.next();
+        System.out.println("Digite a sua senha: ");
+        senha = leia.next();
+        if((usuario.equals("Admin"))&&(senha.equals("123a"))||(usuario.equals("Chico"))&&(senha.equals("abc123")))
+        {
+            System.out.println("Login efetuado com sucesso");
+        }
+        else
+        {
+            System.out.println("Dados invalidos");
+        }
+              
+    
+    }
+        
+}
